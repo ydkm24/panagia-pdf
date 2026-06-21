@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Panagia.pdf banner" width="100%" />
+  <img src="assets/banner.png" alt="Panagia.pdf banner" width="100%" />
 </p>
 
 <h1 align="center">Panagia.pdf</h1>
@@ -14,25 +14,24 @@
   <a href="#community"><img alt="Discord" src="https://img.shields.io/badge/Discord-coming%20soon-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/ydkm24/panagia-pdf-releases/releases/latest"><strong>Download latest Windows installer</strong></a>
+  ·
+  <a href="#features"><strong>Features</strong></a>
+  ·
+  <a href="#app-preview"><strong>Preview</strong></a>
+  ·
+  <a href="docs/troubleshooting.md"><strong>Troubleshooting</strong></a>
+</p>
+
 ---
 
 ## Install
-
-<p>
-  <a href="https://github.com/ydkm24/panagia-pdf-releases/releases/latest">
-    <img src="assets/download-now.svg" alt="Download Panagia.pdf latest Windows installer" width="560" />
-  </a>
-</p>
-
-<details open>
-<summary><strong>Windows</strong></summary>
 
 1. Open the [latest release](https://github.com/ydkm24/panagia-pdf-releases/releases/latest).
 2. Download `Panagia.pdf_Setup.exe`.
 3. Run the installer.
 4. Launch **Panagia.pdf** from the Start Menu or Desktop shortcut.
-
-</details>
 
 ---
 
@@ -44,14 +43,14 @@
 
 ### 🌍 Multilingual PDF Translation
 
-Translate full PDFs into another language using the built-in Google-based translator path for quick default translations, or connect advanced AI models through OpenRouter for higher-quality model-driven translation workflows.
+Translate full PDFs into another language with a fast default translation path, or switch to advanced AI translation through OpenRouter when you want model-driven quality and control.
 
 </td>
 <td width="50%">
 
-### 🤖 Bring Your Preferred AI Model
+### 🤖 OpenRouter AI Model Support
 
-Use OpenRouter-compatible models for premium translation workflows, giving you flexibility to translate with different model families instead of being locked into one provider.
+Bring your preferred OpenRouter-compatible AI model for premium translation workflows instead of being locked into one translation provider.
 
 </td>
 </tr>
@@ -60,14 +59,14 @@ Use OpenRouter-compatible models for premium translation workflows, giving you f
 
 ### 🧑‍🤝‍🧑 Social Hub
 
-Chat with friends, browse the community activity feed, post and reply in forums, and keep up with news, updates, and announcements from inside the app.
+Chat with friends, browse the community activity feed, post and reply in forums, and keep up with news, updates, and announcements inside the app.
 
 </td>
 <td width="50%">
 
 ### 📚 Global Library
 
-Publish your translated books so other users can discover and read them, or browse books shared by the community. Share, repost, and surface books through your feed.
+Read books published by other users, publish your own translated books, share library items, and repost books to your feed so other readers can discover them.
 
 </td>
 </tr>
@@ -76,14 +75,14 @@ Publish your translated books so other users can discover and read them, or brow
 
 ### 📤 Export Hub
 
-Export finished translations as clean translated-only PDFs or side-by-side bilingual PDFs with the original text next to the translation.
+Export translated PDFs as translation-only documents or as side-by-side bilingual PDFs with the original and translation together.
 
 </td>
 <td width="50%">
 
 ### ⚡ Quick Translate
 
-Translate a short piece of text or a single image without creating a full book project — useful for quick passages, screenshots, and one-off translation tasks.
+Translate a short text passage or a single image without creating a full book project — ideal for quick snippets, screenshots, and one-off translation tasks.
 
 </td>
 </tr>
@@ -93,14 +92,41 @@ Translate a short piece of text or a single image without creating a full book p
 
 ## App Preview
 
-Screenshots are coming soon. Good preview images to add here would be:
+### Dashboard
 
-- main PDF reader / translation workspace
-- Export Hub
-- Global Library
-- Social Hub activity feed
-- forum/newsroom area
-- Quick Translate
+<img src="assets/screenshots/dashboard.jpg" alt="Panagia.pdf dashboard" width="100%" />
+
+### PDF Translator
+
+<img src="assets/screenshots/pdf-translator.jpg" alt="Panagia.pdf PDF Translator" width="100%" />
+
+### My Projects
+
+<img src="assets/screenshots/my-projects.jpg" alt="Panagia.pdf My Projects" width="100%" />
+
+### Global Library
+
+<img src="assets/screenshots/global-library.jpg" alt="Panagia.pdf Global Library" width="100%" />
+
+### Social Hub
+
+<img src="assets/screenshots/social-hub.jpg" alt="Panagia.pdf Social Hub" width="100%" />
+
+### Export Hub
+
+<img src="assets/screenshots/export-hub.jpg" alt="Panagia.pdf Export Hub" width="100%" />
+
+### Quick Translate
+
+<img src="assets/screenshots/quick-translate.jpg" alt="Panagia.pdf Quick Translate" width="100%" />
+
+### Profile
+
+<img src="assets/screenshots/profile-combined.jpg" alt="Panagia.pdf Profile" width="100%" />
+
+### Settings
+
+<img src="assets/screenshots/settings.jpg" alt="Panagia.pdf Settings" width="100%" />
 
 ---
 
