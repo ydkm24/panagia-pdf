@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Panagia.pdf banner" width="100%" />
+</p>
+
 <h1 align="center">Panagia.pdf</h1>
 
 <p align="center">
