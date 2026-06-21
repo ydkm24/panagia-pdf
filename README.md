@@ -5,13 +5,12 @@
 <h1 align="center">Panagia.pdf</h1>
 
 <p align="center">
-  <strong>Native Windows desktop app for bilingual book translation, PDF reading, AI-assisted workflows, and cloud publishing.</strong>
+  <strong>AI-powered multilingual PDF translation, reading, publishing, and social discovery for Windows.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ydkm24/panagia-pdf-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ydkm24/panagia-pdf-releases?label=latest%20release&style=for-the-badge&color=FFD23F&labelColor=111111"></a>
+  <a href="https://github.com/ydkm24/panagia-pdf-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ydkm24/panagia-pdf-releases?label=latest&style=for-the-badge&color=F7C948&labelColor=111111"></a>
   <a href="https://github.com/ydkm24/panagia-pdf-releases/releases/latest"><img alt="Windows" src="https://img.shields.io/badge/Windows-10%2B-0078D4?style=for-the-badge&logo=windows&logoColor=white"></a>
-  <a href="checksums/v0.1.0-SHA256SUMS.txt"><img alt="SHA256" src="https://img.shields.io/badge/SHA256-verified-2CF58A?style=for-the-badge&labelColor=111111"></a>
   <a href="#community"><img alt="Discord" src="https://img.shields.io/badge/Discord-coming%20soon-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
 
@@ -21,7 +20,7 @@
 
 <p>
   <a href="https://github.com/ydkm24/panagia-pdf-releases/releases/latest">
-    <img src="assets/download-now.svg" alt="Download Panagia.pdf latest Windows desktop app" width="520" />
+    <img src="assets/download-now.svg" alt="Download Panagia.pdf latest Windows installer" width="560" />
   </a>
 </p>
 
@@ -35,8 +34,6 @@
 
 </details>
 
-> The installer is distributed as a GitHub Release asset. The application source code is **not** stored in this repository.
-
 ---
 
 ## Features
@@ -45,48 +42,48 @@
 <tr>
 <td width="50%">
 
-### 📖 PDF Reading Workspace
+### 🌍 Multilingual PDF Translation
 
-Read and manage book projects in a native desktop window built for long-form PDF workflows.
-
-</td>
-<td width="50%">
-
-### 🌐 Bilingual Translation
-
-Translate books page-by-page while preserving project state and translation progress.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ☁️ Cloud Publishing
-
-Publish completed books to the cloud library and keep local project metadata in sync.
+Translate full PDFs into another language using the built-in Google-based translator path for quick default translations, or connect advanced AI models through OpenRouter for higher-quality model-driven translation workflows.
 
 </td>
 <td width="50%">
 
-### 👤 Account & Profiles
+### 🤖 Bring Your Preferred AI Model
 
-Persistent login, user profiles, subscription-aware account state, and activity stats.
+Use OpenRouter-compatible models for premium translation workflows, giving you flexibility to translate with different model families instead of being locked into one provider.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🛠 Native Windows Installer
+### 🧑‍🤝‍🧑 Social Hub
 
-Packaged for Windows with desktop shortcuts, Start Menu entries, and uninstall support.
+Chat with friends, browse the community activity feed, post and reply in forums, and keep up with news, updates, and announcements from inside the app.
 
 </td>
 <td width="50%">
 
-### 🔒 Release Verification
+### 📚 Global Library
 
-Checksums and manifests are included so downloads can be verified before installation.
+Publish your translated books so other users can discover and read them, or browse books shared by the community. Share, repost, and surface books through your feed.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📤 Export Hub
+
+Export finished translations as clean translated-only PDFs or side-by-side bilingual PDFs with the original text next to the translation.
+
+</td>
+<td width="50%">
+
+### ⚡ Quick Translate
+
+Translate a short piece of text or a single image without creating a full book project — useful for quick passages, screenshots, and one-off translation tasks.
 
 </td>
 </tr>
@@ -94,25 +91,16 @@ Checksums and manifests are included so downloads can be verified before install
 
 ---
 
-## Download Verification
+## App Preview
 
-Before running the installer, verify the SHA256 checksum if desired:
+Screenshots are coming soon. Good preview images to add here would be:
 
-```text
-d3b93dd3bb70a7690728b738468b2a9ebb47dcd978a061380fd0483a62edaa09  Panagia.pdf_Setup.exe
-```
-
-Checksum file:
-
-```text
-checksums/v0.1.0-SHA256SUMS.txt
-```
-
-Release manifest:
-
-```text
-manifests/latest.json
-```
+- main PDF reader / translation workspace
+- Export Hub
+- Global Library
+- Social Hub activity feed
+- forum/newsroom area
+- Quick Translate
 
 ---
 
@@ -122,7 +110,7 @@ manifests/latest.json
 | --- | --- |
 | Operating system | Windows 10 or newer |
 | Runtime | Microsoft Edge WebView2 Runtime |
-| Internet | Required for login, cloud sync, publishing, and AI translation features |
+| Internet | Required for login, cloud sync, publishing, social features, and AI translation |
 | Installer | `Panagia.pdf_Setup.exe` from GitHub Releases |
 
 ---
@@ -150,28 +138,32 @@ Website: coming soon
 
 ---
 
-## Repository Scope
+<details>
+<summary><strong>Download verification</strong></summary>
 
-This repository is only for:
+If you want to verify the installer before running it, compare the SHA256 checksum:
 
-- installer release metadata
-- release notes
-- manifests
-- checksums
-- documentation
-- public-facing assets
+```text
+d3b93dd3bb70a7690728b738468b2a9ebb47dcd978a061380fd0483a62edaa09  Panagia.pdf_Setup.exe
+```
 
-It intentionally does **not** contain:
+Checksum file:
 
-- app source code
-- `.env` files
-- API keys or service credentials
-- user session data
-- local build scratch files
+```text
+checksums/v0.1.0-SHA256SUMS.txt
+```
+
+Release manifest:
+
+```text
+manifests/latest.json
+```
+
+</details>
 
 ---
 
 <p align="center">
   <strong>Panagia.pdf</strong><br />
-  Native bilingual book translation for Windows.
+  Translate. Read. Publish. Share.
 </p>
